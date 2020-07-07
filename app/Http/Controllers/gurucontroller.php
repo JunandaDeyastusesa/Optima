@@ -7,10 +7,10 @@ use App\Guru;
 
 class gurucontroller extends Controller
 {
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
+    // public function __construct()
+    // {
+    //     $this->middleware('auth');
+    // }
     public function guru() 
     {
     $halaman = 'guru';
@@ -22,8 +22,8 @@ class gurucontroller extends Controller
     {
     $halaman = 'guru';
     return view('guru.create', compact('halaman'));
-
     }
+    
     public function store(Request $request)
     {
         Guru::create($request->all());
