@@ -1,21 +1,21 @@
 @extends('template')
 
 @section('main')
-<section class="container" id="guru">
+<section class="container" id="guru" style="font-family: 'Fira Sans', sans-serif;">
 
-    <div id="atas" style="margin-top: -500px; margin-left: 40px;">
+    <div id="atas" style="margin-top: -460px; margin-left: 50px;">
     	<h6 style="color: white; line-height: 30px;">Cari spare part & aneka peralatan kapal yang anda inginkan</h6>
       	<form class="form-inline my-2 my-lg-0">
-      		<input class="form-control mr-sm-2" type="search" placeholder="Ketik Pencarian Anda" aria-label="Search" style="padding-right: 600px;">
+      		<input class="form-control mr-sm-2" type="search" placeholder="Ketik Pencarian Anda" aria-label="Search" style="padding-right: 570px;">
       		<select class="btn btn-light my-2 my-sm-0" style="margin-right: 10px;"><option>Semua Kategori</option>
       		</select>
       		<button class="btn btn-success my-2 my-sm-0" type="submit">Cari</button>
     	</form>
     </div>
 
-	<div class="card border-light" style="padding-top: 200px; margin-top: 30px;">
-	  <div class="card-overlay" style="margin-left: 30px; margin-top: -170px;">
-	    <h5 class="card-title" style="font-weight: bold; color: #ca6d39; margin-bottom: 30px;"> / KATEGORI PRODUK / GENSEET & KELISTRIKAN / NAMA PRODUK DETAIL</h5>
+	<div class="container card border-light" style="padding-top: 200px; margin-left:-15px; margin-top: 30px; width:1200px;">
+	  <div class="card-overlay" style="margin-left: 35px; margin-top: -170px;">
+	    <h6 class="card-title" style="font-weight: bold; color: #ca6d39; margin-bottom: 30px;"> / KATEGORI PRODUK / GENSEET & KELISTRIKAN / NAMA PRODUK DETAIL</h6>
 	    <h4 style="font-weight: bold; color: #082750; margin-bottom: 30px;">Spare Part Kapal 1</h4>
 	    <div>
 	    	<img src="{{ ('img/blog/blog_4.png') }}" style="width: 470px; height: 470px;" class="rounded float-left" alt="...">
@@ -26,7 +26,7 @@
 	    </div>
 	  </div>
 
-	<div style="margin-top: -630px; margin-left: 830px;">
+	<div style="margin-top: -640px; margin-left: 830px;">
 		<h6 style="font-weight: bold;" ><a href="#" style="color: #ca6d39;">Kembali Ke kategori Produk &emsp; ></a></h6>
 		<!-- <h6 style="font-weight: bold; margin-top: -27px; margin-left: 250px; margin-bottom: 30px;">></h6> -->
 	</div>
@@ -89,7 +89,7 @@
 			    <div class="">
 			      <img src="{{ ('img/blog/single_blog_1.png') }}" class="card-img-top" alt="...">
 			      <div class="card-body">
-			        <p class="card-text">Spare Part Kapal 1</p>
+			        <p class="card-text">Spare Part Kapal 2</p>
 			        <h6 class="card-title">Rp 12.000.000,-<strike style="font-size: 12px;">Rp 15.000.000,-</strike></h6>
 			      </div>
 			    </div>
@@ -98,7 +98,7 @@
 			    <div class="">
 			      <img src="{{ ('img/blog/single_blog_2.png') }}" class="card-img-top" alt="...">
 			      <div class="card-body">
-			        <p class="card-text">Spare Part Kapal 1</p>
+			        <p class="card-text">Spare Part Kapal 3</p>
 			        <h6 class="card-title">Rp 12.000.000,-<strike style="font-size: 12px;">Rp 15.000.000,-</strike></h6>
 			      </div>
 			    </div>
@@ -107,7 +107,7 @@
 			    <div class="">
 			      <img src="{{ ('img/blog/single_blog_4.png') }}" class="card-img-top" alt="...">
 			      <div class="card-body">
-			        <p class="card-text">Spare Part Kapal 1</p>
+			        <p class="card-text">Spare Part Kapal 4</p>
 			        <h6 class="card-title">Rp 12.000.000,-<strike style="font-size: 12px;">Rp 15.000.000,-</strike></h6>
 			      </div>
 			    </div>
